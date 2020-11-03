@@ -39,15 +39,8 @@ else
         console1.clear_sc
         puts "Press the enter key to continue."
         pause = STDIN.gets # waits for the user to press the enter key
+        puts "Thanks for listening in. I hope you have an amazing day!"
 
-        puts "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah, " +
-            "Blah blah, blah blah blah blah Blah blah, blah blah blah blah Blah blah. "
-        puts ("\n" * 4) # Scrolls the screen 4*
     else
         console1.clear_sc
         puts "Thanks for listening in. I hope you have an amazing day!"
